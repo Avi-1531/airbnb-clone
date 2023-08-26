@@ -17,10 +17,10 @@ const Card = ({ image, star, rating, content, price, openspots, online }) => {
           </span>
         </div>
       )}
-      <img src={`src/assets/${image}`} alt="" />
+      <img src={`/assets/${image}`} alt="" />
       <div className="rating flex items-center p-1 ">
         <span>
-          <img src="src/assets/star.svg" alt="" />
+          <img src="/assets/star.svg" alt="" />
         </span>
         <span className="ml-1">{star.toFixed(1)}</span>
         <span className="text-[#918E9B] text-[12px] m-1">({rating})</span>
